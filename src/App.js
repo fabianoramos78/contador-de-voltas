@@ -7,6 +7,12 @@ import Button from './components/Button'
 
 
 function App() {
+  /*
+  Funcionamento do useState
+  const [array0(Ex.: voltas), array1( Ex.: setVoltas)] = useState(valor array0(Ex.: 0))
+  A posição 0 recebe o valor inicial
+  A posição 1 faz a alteração da posiao 0
+  */
   const [numVoltas, setNumVoltas] = useState(0)  
   const [running, setRunning] = useState(false)
   const [tempo, setTempo] = useState(0)
